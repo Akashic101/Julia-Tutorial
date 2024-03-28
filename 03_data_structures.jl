@@ -48,7 +48,8 @@ println(typeof(randomMix))
 numbers = [[1, 2, 3], [4, 5], [6, 7, 8, 9]]
 println(numbers)
 
-#= Using the rand()-function we can create 2D- or 3D-Arrays with random values =#
+#= Using the rand()-function we can create 2D- or 3D-Arrays with random values. The numbers are chosen between 0 and 1 and are of type Float64 =#
 
 println(rand(4, 3))
 println(rand(4, 3, 2))
+print(typeof(rand(3, 2, 1)))
